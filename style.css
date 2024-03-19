@@ -8,6 +8,7 @@
 
 /* – – – COLORS – – – */
 
+:root {
 /* Colors */
 --text: #1a385b;
 --background: #f8f5fa;
@@ -22,7 +23,8 @@
 --radialPrimarySecondary: radial-gradient(#e36f45, #dcd5dd);
 --radialPrimaryAccent: radial-gradient(#e36f45, #789abf);
 --radialSecondaryAccent: radial-gradient(#dcd5dd, #789abf);
-
+}
+  
 * {
   box-sizing: border-box;
   margin: 0!important;
