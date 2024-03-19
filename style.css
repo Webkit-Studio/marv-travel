@@ -1,1 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Noto%20Serif%20Display:700|Noto%20Sans:400');
+
+
+
+/* – – – COLORS – – – */
+
+/* Colors */
+--text: #1a385b;
+--background: #f8f5fa;
+--primary: #e36f45;
+--secondary: #dcd5dd;
+--accent: #789abf;
+
+/* Gradients */
+--linearPrimarySecondary: linear-gradient(#e36f45, #dcd5dd);
+--linearPrimaryAccent: linear-gradient(#e36f45, #789abf);
+--linearSecondaryAccent: linear-gradient(#dcd5dd, #789abf);
+--radialPrimarySecondary: radial-gradient(#e36f45, #dcd5dd);
+--radialPrimaryAccent: radial-gradient(#e36f45, #789abf);
+--radialSecondaryAccent: radial-gradient(#dcd5dd, #789abf);
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Noto Sans';
+  font-weight: 400;
+  color: var(--text);
+}
+
+/* – – – TEXT – – – */
+
+/* Headings */
+h1, h2, h3, h4, h5 {
+  font-family: 'Noto Serif Display'!important;
+  font-weight: 700;
+  color: var(--text);
+}
+
+/* Sizes */
+html {font-size: 100%;} /* 16px */
+
+h1 {font-size: 5.652rem; /* 90.4px */}
+
+h2 {font-size: 3.997rem; /* 64px */}
+
+h3 {font-size: 2.827rem; /* 45.28px */}
+
+h4 {font-size: 1.999rem; /* 32px */}
+
+h5 {font-size: 1.414rem; /* 22.56px */}
+
+small {font-size: 0.707rem; /* 11.36px */}
+
+/* Hide the inPage banner */
+#bar-poweredby {
+  display: none!important;
+}
+
+.hidden {
+  display: none;
+}
+
+
+
+
+.bento-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.main-title, .profile, .socials, .graphic, .testimonial, .clients {
+  border: 1px solid #000; /* For demonstration purposes */
+  padding: 20px;
+}
+
+/* Example of a responsive design */
+@media (max-width: 768px) {
+  .bento-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Add your styles here */
+/* You would need to style each of the grid items according to your design. */
+/* This may include background colors, fonts, images, etc. */
 
