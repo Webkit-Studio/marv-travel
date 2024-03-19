@@ -59,38 +59,11 @@ h5 {font-size: 1.414rem; /* 22.56px */}
 
 small {font-size: 0.707rem; /* 11.36px */}
 
-/* Hide the inPage banner */
+/* Hide the inPage banner
 #bar-poweredby {
   display: none!important;
-}
+} */
 
 .hidden {
   display: none;
 }
-
-
-
-
-.bento-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 20px;
-  padding: 20px;
-}
-
-.main-title, .profile, .socials, .graphic, .testimonial, .clients {
-  border: 1px solid #000; /* For demonstration purposes */
-  padding: 20px;
-}
-
-/* Example of a responsive design */
-@media (max-width: 768px) {
-  .bento-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
-/* Add your styles here */
-/* You would need to style each of the grid items according to your design. */
-/* This may include background colors, fonts, images, etc. */
-
